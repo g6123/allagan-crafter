@@ -1,0 +1,21 @@
+{
+  "name": "@allagan/simulator",
+  "version": "0.1.0",
+  "private": true,
+  "author": "cumul <gg6123@naver.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@ffxiv-teamcraft/simulator": "^2.10.8"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
