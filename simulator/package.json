@@ -4,16 +4,31 @@
   "private": true,
   "author": "cumul <gg6123@naver.com>",
   "license": "UNLICENSED",
+  "scripts": {
+    "start": "nodemon --watch \"src/**\" --ext \"ts\" --exec \"ts-node --files src/index.ts\""
+  },
   "dependencies": {
-    "@ffxiv-teamcraft/simulator": "^2.10.8"
+    "@ffxiv-teamcraft/simulator": "^2.10.8",
+    "awilix": "^4.3.4",
+    "bunyan": "^1.8.15",
+    "fastify": "^3.17.0",
+    "fastify-autoload": "^3.7.1",
+    "fastify-awilix": "^1.1.0",
+    "fastify-plugin": "^3.0.0",
+    "knex": "^0.95.6",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/bunyan": "^1.8.6",
+    "@types/node": "^15.6.1",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.7",
     "prettier": "^2.3.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
